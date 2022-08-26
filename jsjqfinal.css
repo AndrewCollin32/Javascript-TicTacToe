@@ -1,0 +1,86 @@
+/* Style sheet is written by Andrew Diep */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+    font-family: 'Montserrat';
+}
+#mainPage {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#game {
+    margin: 10px;
+    padding: 10px;
+}
+#rowOne, #rowTwo, #rowThree {
+    display: flex;
+}
+#rowOne .one, #rowOne .two, #rowOne .three,
+#rowTwo .one, #rowTwo .two, #rowTwo .three,
+#rowThree .one, #rowThree .two, #rowThree .three
+{
+    background-color: tan;
+    margin: 10px;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 80px;
+}
+#choice {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#reset, #PlayerOne, #PlayerTwo {
+    background-color: tan;
+    padding: 10px;
+}
+#alert {
+    margin-top: 20px;
+    display: none;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+    background-color: #e2a8a8;
+    padding: 10px;
+    font-size: 25px;
+}
+#playerXScore {
+    margin-left: 100px;
+    margin-right: -800px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#playerOScore {
+    margin-right: 100px;
+    margin-left: -800px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#scoreX {
+    padding: 10px;
+    background-color: tan;
+    margin: 30px;
+}
+#scoreO {
+    padding: 10px;
+    background-color: tan;
+    margin: 30px;
+}
+#plusOneX {
+    background-color: #beeab2;
+    padding: 10px;
+    margin: 50px;
+    display: none;
+}
+#plusOneO {
+    background-color: #beeab2;
+    padding: 10px;
+    margin: 50px;
+    display: none;
+}

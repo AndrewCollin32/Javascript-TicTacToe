@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Created by Andrew Diep
+This is basically a simple TicTacToe game you can play with your friends
+I have put in a lot of time in this project. I hope this project demonstrates how much I've learned about jQuery
+The computer will ask you if you want to go first (You enter X or O)
+Then you select the slot you want to put in by clicking on the brown boxes.
+The computer automatically recognize who is the winner by giving you a message
+and by highlighting the winner's slots. The computer will also add a point to the winner's score.
+You may reset the game by pressing the reset button, but this will not reset the score.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="jsjqfinal.css">
+    <script src = jquery.js></script>
+    <script src="jsjqfinal.js"></script>
+</head>
+<body>
+    <div id = mainPage>
+        <div id = playerXScore>
+            <p class = scoreTitle>Player X Score</p>
+            <div id = scoreX>0</div>
+            <div id = plusOneX> +1 </div>
+        </div>
+        <div id = game>
+            <div id = rowOne>
+                <div class = one>
+
+                </div>
+                <div class = two>
+
+                </div>
+                <div class = three>
+
+                </div>
+            </div>
+            <div id = rowTwo>
+                <div class = one>
+
+                </div>
+                <div class = two>
+
+                </div>
+                <div class = three>
+
+                </div>
+            </div>
+            <div id = rowThree>
+                <div class = one>
+
+                </div>
+                <div class = two>
+
+                </div>
+                <div class = three>
+
+                </div>
+            </div>
+
+            <div id = choice>
+                <div id = PlayerOne> Player X </div>
+                <div id = reset> Reset </div>
+                <div id = PlayerTwo> Player O </div>
+            </div>
+            <div id = alert></div>
+        </div>
+        <div id = playerOScore>
+            <p class = scoreTitle>Player O Score</p>
+            <div id = scoreO >0</div>
+            <div id = plusOneO > +1 </div>
+        </div>
+    </div>
+</body>
+</html>
