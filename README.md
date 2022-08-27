@@ -3,7 +3,7 @@
 This program is created by Andrew Collin, 2020
 
 This is a simple application that allows 2 players to play tic-tac-toe. Created using HTML5, CSS, Javascript and JQuery. There is no requirement in running this program. <br>
-Just open the folder and click "index" to run the program. 
+Just open the folder and click on "index" to run the program. 
 
 # Features
 
